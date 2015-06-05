@@ -1,0 +1,77 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.16" />
+
+    <TextView android:text="@string/nanodegree_apps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ff5358ff"
+        android:textSize="25sp"
+        android:layout_gravity="center"
+        android:id="@+id/textView" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.16"
+        />
+
+    <Button android:text="@string/spotify_streamer"
+        android:onClick="spotifyToasty"
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"
+        android:id="@+id/spotify_streamer"
+        android:layout_gravity="center_horizontal"
+        android:background="#E3F2FD" />
+
+    <Button android:text="@string/scores_app"
+        android:onClick="scoresToasty"
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"
+        android:id="@+id/scores_app"
+        android:layout_gravity="center_horizontal"
+        android:background="#90CAF9" />
+
+    <Button android:text="@string/library_app"
+        android:onClick="libraryToasty"
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"
+        android:id="@+id/library_app"
+        android:layout_gravity="center_horizontal"
+        android:background="#42A5F5" />
+
+    <Button android:text="@string/build_it_bigger"
+        android:onClick="buildToasty"
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"
+        android:id="@+id/build_it_bigger"
+        android:layout_gravity="center_horizontal"
+        android:background="#1E88E5" />
+
+    <Button android:text="@string/xyz_reader"
+        android:onClick="xyzToasty"
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"
+        android:id="@+id/xyz_reader"
+        android:layout_gravity="center_horizontal"
+        android:background="#1565C0" />
+
+    <Button android:text="@string/capstone"
+        android:onClick="capstoneToasty"
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"
+        android:id="@+id/capstone"
+        android:layout_gravity="center_horizontal"
+        android:background="#FF6D00" />
+
+</LinearLayout>
